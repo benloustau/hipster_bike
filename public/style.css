@@ -74,7 +74,7 @@ footer ul li{
   	left: 50%;
   	transform: translate(-50%, -35%);
   	color: white;
-  	text-shadow:  3px 0px 0px rgba(50, 50, 50, 0.75);
+  	background: rgba(29,56,70, .5);
   	text-align: center;
   }
   .intro button{
