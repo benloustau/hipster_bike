@@ -1,6 +1,7 @@
 require 'sinatra'
 require 'mandrill'
 
+
 get '/about_us' do 
 	erb :about_us
 end
@@ -12,5 +13,6 @@ end
 get '/rent_now' do 
 	erb :rent_now
 end
+
 
 
