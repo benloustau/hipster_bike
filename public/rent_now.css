@@ -1,0 +1,17 @@
+.rentform {
+	margin: 0 auto;
+	width: 50%;
+	margin-top: 200px;
+}
+
+form {
+	display: block;
+}
+
+input{
+	width: 50%;
+}
+
+label {
+	float: left;
+}
