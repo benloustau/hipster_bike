@@ -2,6 +2,7 @@
 	font-weight: bold;
 	font-size:24px;
 	text-align: center;
+	padding-top:100px;
 }
 
 #iframe{
@@ -9,5 +10,22 @@
 }
 
 #div1{
-	
+	border:1px solid red;
+	width:60%;
+	height:300px;
+	margin:0 auto;
+}
+
+#add{
+	border:1px solid red;
+	float:left;
+	width:40%;
+	height:80%;
+	background: rgba(62,96,111, .9);
+}
+#form{
+	border:1px solid red;
+	float: right;
+	width:50%;
+	height:100%;
 }

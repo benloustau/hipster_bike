@@ -6,7 +6,11 @@
 	<title><%=title%></title>
 	<link href="<%= url('/normalize.css') %>" rel="stylesheet" type="text/css" />
 	<link href="<%= url('/style.css') %>" rel="stylesheet" type="text/css" />
+<<<<<<< HEAD
 	<link href="<%= url('/ben.css') %>" rel="stylesheet" type="text/css" />
+=======
+	<link href="<%= url('/about_us.css') %>" rel="stylesheet" type="text/css" />
+>>>>>>> 746a0a12745669f802c388eca452718b5c1064fc
 <body>
 	<nav>
 	 <ul>
@@ -16,7 +20,10 @@
 	 </ul>
 	<button>Rent Now</button>
 	</nav>
+	<div role="main">
 	<%=yield%>
+	</div>
+	<div>
 	<footer>
 		<ul>
 			<li>Copy</li>
@@ -24,5 +31,6 @@
 			<li>item2</li>
 		</ul>
 	</footer>
+	</div role="contentinfo">
 </body>
 </html>
