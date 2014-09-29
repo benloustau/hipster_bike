@@ -1,24 +1,29 @@
 div h1 {
 	text-align: center;
+	padding-top: 100px;
 }
 
 #left {
-	background: rgba(255, 255, 255, 0.4);
+	background: rgba(62,96,111, .4);
 	float: left;
-	width: 350px;
-	height: 370px;
+	width: 300px;
+	height: 420px;
 	margin-left: 100px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: white;
+	line-height: 1.4;
 }
 
 #right {
-	background: rgba(255, 255, 255, 0.4);
+	background: rgba(62,96,111, .4);
 	float: right;
-	width: 350px;
-	height: 370px;
+	width: 300px;
+	height: 420px;
 	margin-right: 100px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: white;
+	line-height: 1.4;
 }
 
