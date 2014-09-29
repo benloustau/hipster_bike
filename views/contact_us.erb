@@ -5,23 +5,19 @@
 
 <div id="div1">
 		<div id="add">
-			<div id="text"><span>ADDRESS:</span> &nbsp&nbsp&nbsp&nbsp 1430 Kent Street<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<div id="text2"><span>ADDRESS:</span> &nbsp&nbsp&nbsp&nbsp 1430 Kent Street<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 			Brooklyn, NY 11249.
 			<br><br>
 			<span>PHONE:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp (518)-213-2443</span></div>
 		</div>
 		<div id="form">
 			<br>
-			<form method="post"  action="">
-			From:
+			<form method="post"  action="send_email">
+			<label for="from">From:</label><br />
 			<input id="from" type="text" name="from" placeholder="Your EMAIL !!!">
-			<input type="button" name="button" value="submitForm" id="submitBtn" placeholder="Please tell us what this is about."/>
-			<br><br>
-			Comment:
-			<br>
-			<textarea id="email" rows="10" cols="45"></textarea>
-			
-			
+			<label for="comment">Comment:</label><br />
+			<textarea id="email" name="comment" rows="10" cols="45"></textarea>
+			<input type="button" name="button" value="submitForm" id="submitBtn" placeholder="Please tell us what this is about."/>			
 			</form>		
 
 		</div>
