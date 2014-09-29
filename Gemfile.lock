@@ -1,6 +1,12 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    httpi (2.2.7)
+      rack
+    json (1.8.1)
+    mandrill (0.0.4)
+      httpi
+      json
     rack (1.5.2)
     rack-protection (1.5.3)
       rack
@@ -14,4 +20,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  mandrill
   sinatra
