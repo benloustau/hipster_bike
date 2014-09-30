@@ -1,5 +1,9 @@
-<div class="rentform">
-	<form action="/" method="POST">
+<div id="heading">
+	<h1>Rent a Bike Now!</h1>
+</div>
+
+<div>
+	<form class="rentform" action="/rent_form" method="POST">
 		<label for="name">Full Name</label>
 		<input type="text" name="name" id="name" placeholder="Please type your name"/>
 		<br>
@@ -16,11 +20,11 @@
 		<input type="text" name="city" id="city" placeholder="Please type your city" />
 		<br>
 		<label for="zipcode">Zipcode</label>
-		<input type="text" name="zipcode" id="zipcode"  placeholder="Enter zipcode"/>
+		<input type="text" name="zipcode" id="zipcode"  placeholder="Please enter zipcode"/>
 		<br>
 		<label for="comments">Comments</label>
 		<input type="text" name="comments" id="comments" placeholder="Any comments?" />
 		<br>
-		<input type="button" name="submitBtn" id="submitBtn" value="submit form"/>
+		<input type="button" name="submitBtn" id="submitBtn" value="Rent Now!"/>
 	</form>
 </div>

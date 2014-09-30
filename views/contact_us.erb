@@ -12,16 +12,13 @@
 		</div>
 		<div id="form">
 			<br>
-			<form method="post"  action="">
-			From:
-			<input id="from" type="text" name="from" placeholder="Your EMAIL !!!">
-			<input type="button" name="button" value="submitForm" id="submitBtn" placeholder="Please tell us what this is about."/>
-			<br><br>
-			Comment:
-			<br>
-			<textarea id="email" rows="10" cols="45"></textarea>
-			
-			
+			<form method="post"  action="send_email">
+			<label for="from">From:</label>
+			<input id="from" type="text" name="from" placeholder="Your EMAIL !!!"></br>
+			<label for="comment">Comment:</label><br />
+			<textarea id="email" name="comment" rows="10" cols="45"></textarea>	
+			<input type="submit" name="button" value="submitForm" id="submitBtn"/>	
+				
 			</form>		
 
 		</div>
