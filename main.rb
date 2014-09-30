@@ -53,9 +53,9 @@ post '/rent_form' do
 	 :to=>[ 
 	 { 
 	 :email=> params[:eMail_address], 
-	 :name=> params[:name], 
+	 :name=> params[:name]
 	 } 
-	 ], 
+	 ],  
 	 :html=>"<html><body></body</html>",
 	 :from_email=> "benloustau@gmail.com", 
 	} 
