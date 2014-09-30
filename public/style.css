@@ -13,9 +13,7 @@ html{
   position: relative;
   min-height: 100%;
 }
-body{
-	margin: 0 0 50px; /* bottom = footer height */
-}
+
 body, html{
 	margin: 0;
 	padding: 0;
@@ -95,9 +93,7 @@ footer ul li{
   }
   .intro h1{
   	padding: 0;
-  }
-  .intro h1, .intro h2{
-  	background: rgba(113,151,193, .5);
+   padding-top: 60px;
   }
   .intro button{
   		background: rgb(145,170,157);
@@ -108,3 +104,135 @@ footer ul li{
   		color: white;
   		text-align: center;
   }
+  
+  .titles{
+  font-weight: bold;
+  font-size:30px;
+  text-align: center;
+  padding-top:100px;
+}
+
+#iframe{
+  text-align: center;
+}
+
+#div1{
+
+  width:60%;
+  height:290px;
+  margin:0 auto;
+}
+
+#add{
+
+  float:left;
+  width:40%;
+  height:80%;
+  background: rgba(62,96,111, .9);
+  color:white;
+  text-align: center;
+}
+
+#form{
+  position:relative;
+  float:right;
+  height:100%;
+  width:430px;
+  color:white;
+
+}
+
+#text{
+  padding-top:60px;
+}
+
+#submitBtn{
+    text-align: center;
+    color:black;
+}
+
+#left {
+  background: rgba(62,96,111, .4);
+  float: left;
+  width: 300px;
+  height: 420px;
+  margin-left: 200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  line-height: 1.4;
+}
+
+#right {
+  background: rgba(62,96,111, .4);
+  float: right;
+  width: 300px;
+  height: 420px;
+  margin-right: 200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  line-height: 1.4;
+}
+
+.rentform {
+  /*width:50%;*/
+  margin:3% 30% 10% 30%;  
+  border:1px solid gray;
+  padding-top: 15px;
+  border-radius:10px;
+  background: rgba(62,96,111, .4);
+}
+
+.rentform label{
+  display: inline-block;
+  float: left;
+  clear: left;
+  width:  200px;
+  text-align: right;
+  color: white;
+  padding-right: 20px;
+
+}
+
+.rentform input[type=text] {
+  margin-bottom:10px;
+  margin-top:10px;
+  width:50%;
+  padding:5px;
+  border-radius:5px;
+  border:1px solid #7ac9b7;
+  text-align: center;
+}
+
+.rentform input[type=submit] {
+  width:20%;
+  padding:10px;
+  border-radius:5px;
+  border:1px solid #7ac9b7;
+  box-shadow: 0px 3px 0px 0px rgba(50, 50, 50, 0.75);
+  background: rgb(145,170,157);
+  margin-left: 48%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+}
+
+.rentform textarea{
+  width:100%;
+  padding:15px;
+  margin-top:10px;
+  border:1px solid #7ac9b7;
+  border-radius:5px;
+  margin-bottom:20px;
+  resize:none;
+}
+
+input[type=text]:focus,textarea:focus{
+  border-color:#4697e4
+}
+
+  
+
+
+
