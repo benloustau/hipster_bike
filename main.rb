@@ -35,7 +35,7 @@ post '/send_email' do
 	 :name=> "hipster_bike" 
 	 } 
 	 ], 
-	 :html=>"<html><body></body</html>",
+	 :html=params[:comment],
 	 :from_email=> params[:from], 
 	} 
 	sending = m.messages.send message
