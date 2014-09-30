@@ -152,6 +152,14 @@ footer ul li{
     color:black;
 }
 
+#from{
+  color:black;
+}
+
+#email{
+  color:black;
+}
+
 #left {
   background: rgba(62,96,111, .4);
   float: left;
