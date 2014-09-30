@@ -49,10 +49,19 @@ nav ul li{
 	background: rgba(25,52,65, .9);
 	padding: 10px;
 	border-radius: 10px;
+
 }
 nav a{
 	color: #fff;
 	text-decoration: none;
+  transition: padding .5s ease;
+}
+nav a:hover{
+ padding: 0px 30px 0px 30px;
+}
+nav i{
+  margin-right: 15px;
+  color: #fff
 }
 footer {
     position: absolute;

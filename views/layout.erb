@@ -1,9 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title><%= @title %></title>
 	<link href="<%= url('/normalize.css') %>" rel="stylesheet" type="text/css" />
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="<%= url('/style.css') %>" rel="stylesheet" type="text/css" />
 	<link href="<%= url('/ben.css') %>" rel="stylesheet" type="text/css" />
 	<link href="<%= url('/about_us.css') %>" rel="stylesheet" type="text/css" />
@@ -11,9 +13,9 @@
 <body>
 	<nav>
 	 <ul>
-	 	<li><a href="/home">Home</a></li>
-	 	<li><a href="/about_us">Our Story</a></li>
-	 	<li><a href="/contact_us">Contact Us</a></li>
+	 	<li><i class="fa fa-home"></i><a href="/home">Home</a></li>
+	 	<li><i class="fa fa-beer"></i><a href="/about_us">Our Story</a></li>
+	 	<li><i class="fa fa-envelope"></i><a href="/contact_us">Contact Us</a></li>
 	 </ul>
 	<button>Rent Now</button>
 	</nav>
