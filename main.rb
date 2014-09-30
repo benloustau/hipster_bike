@@ -24,7 +24,7 @@ end
 post '/send_email' do
 
 	m = Mandrill::API.new
-
+	comment = "<html><body> #{params[:comment]} </body></html>"
 	message = { 
 	 :subject=> "Customer request from mandrill", 
 	 :from_name=>"Customer",
@@ -35,7 +35,7 @@ post '/send_email' do
 	 :name=> "hipster_bike" 
 	 } 
 	 ], 
-	 :html=>"<html><body>Your messaged has been recieved!</body></html>",
+	 :html=> comment,
 	 :from_email=> params[:from], 
 	} 
 	sending = m.messages.send message
