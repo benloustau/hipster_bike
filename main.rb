@@ -52,12 +52,12 @@ post '/rent_form' do
 	 :text=> "Your bike is ready for pickup!",
 	 :to=>[ 
 	 { 
-	 :email=> params [:eMail_address], 
-	 :name=> params [:name], 
+	 :email=> params[:eMail_address], 
+	 :name=> params[:name], 
 	 } 
 	 ], 
 	 :html=>"<html><body></body</html>",
-	 :from_email=> benloustau@gmail.com, 
+	 :from_email=> "benloustau@gmail.com", 
 	} 
 	sending = m.messages.send message
 	puts sending
