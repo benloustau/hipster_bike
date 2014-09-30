@@ -95,9 +95,7 @@ footer ul li{
   }
   .intro h1{
   	padding: 0;
-  }
-  .intro h1, .intro h2{
-  	background: rgba(113,151,193, .5);
+   padding-top: 60px;
   }
   .intro button{
   		background: rgb(145,170,157);
