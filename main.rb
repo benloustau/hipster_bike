@@ -42,6 +42,27 @@ post '/send_email' do
 	puts sending
 end
 
+post '/rent_form' do
+
+	m = Mandrill::API.new
+
+	message = { 
+	 :subject=> "Confirmation Email", 
+	 :from_name=>"Hipster Bike",
+	 :text=> "Your bike is ready for pickup!",
+	 :to=>[ 
+	 { 
+	 :email=> params[:eMail_address], 
+	 :name=> params[:name], 
+	 } 
+	 ], 
+	 :html=>"<html><body></body</html>",
+	 :from_email=> "benloustau@gmail.com", 
+	} 
+	sending = m.messages.send message
+	puts sending
+end
+
 
 
 
