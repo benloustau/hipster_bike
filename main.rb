@@ -55,11 +55,7 @@ post '/rent_form' do
 	 :email=> params[:eMail_address], 
 	 :name=> params[:name]
 	 } 
-	 ], 
-	 :html=>"<html><body>Your bike is ready for pickup!</body</html>",
-	 :name=> params[:name], 
-	 } 
-	 ], 
+	 ],  
 	 :html=>"<html><body></body</html>",
 	 :from_email=> "benloustau@gmail.com", 
 	} 
