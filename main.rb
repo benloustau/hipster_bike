@@ -35,7 +35,7 @@ post '/send_email' do
 	 :name=> "hipster_bike" 
 	 } 
 	 ], 
-	 :html=params[:comment],
+	 :html=>"<html><body>Your messaged has been recieved!</body></html>",
 	 :from_email=> params[:from], 
 	} 
 	sending = m.messages.send message
