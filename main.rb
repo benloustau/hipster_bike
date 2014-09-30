@@ -40,6 +40,7 @@ post '/send_email' do
 	} 
 	sending = m.messages.send message
 	puts sending
+	redirect '/home'
 end
 
 post '/rent_form' do
@@ -56,11 +57,12 @@ post '/rent_form' do
 	 :name=> params[:name]
 	 } 
 	 ],  
-	 :html=>"<html><body></body</html>",
+	 :html=>"<html><body>Your bike is ready for pickup!</body></html>",
 	 :from_email=> "benloustau@gmail.com", 
 	} 
 	sending = m.messages.send message
 	puts sending
+	redirect '/home'
 end
 
 
