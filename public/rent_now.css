@@ -7,7 +7,7 @@
 	background: rgba(62,96,111, .4);
 }
 
-label {
+label.rentform {
 	display: inline-block;
 	float: left;
 	clear: left;
@@ -18,7 +18,7 @@ label {
 
 }
 
-input[type=text]{
+input[type=text].rentform{
 	margin-bottom:10px;
 	margin-top:10px;
 	width:50%;
@@ -28,7 +28,7 @@ input[type=text]{
 	text-align: center;
 }
 
-input[type=submit]{
+input[type=submit].rentform{
 	margin-bottom:20px;
 	width:20%;
 	padding:10px;
@@ -40,7 +40,7 @@ input[type=submit]{
 	margin-top: 20px;
 }
 
-textarea{
+textarea.rentform{
 	width:100%;
 	padding:15px;
 	margin-top:10px;
