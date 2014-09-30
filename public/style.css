@@ -61,8 +61,11 @@ nav a:hover{
 }
 nav i{
   margin-right: 15px;
-  color: #fff
+  color: #fff;
 }
+/*.hide{
+  display: none;
+}*/
 footer {
     position: absolute;
     left: 0;

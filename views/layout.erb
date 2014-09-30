@@ -10,12 +10,13 @@
 	<link href="<%= url('/ben.css') %>" rel="stylesheet" type="text/css" />
 	<link href="<%= url('/about_us.css') %>" rel="stylesheet" type="text/css" />
 	<link href="<%= url('/rent_now.css') %>" rel="stylesheet" type="text/css" />
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <body>
 	<nav>
 	 <ul>
-	 	<li><i class="fa fa-home"></i><a href="/home">Home</a></li>
-	 	<li><i class="fa fa-beer"></i><a href="/about_us">Our Story</a></li>
-	 	<li><i class="fa fa-envelope"></i><a href="/contact_us">Contact Us</a></li>
+	 	<li><i class=" hide fa fa-home"></i><a href="/home">Home</a></li>
+	 	<li><i class=" hide fa fa-beer"></i><a href="/about_us">Our Story</a></li>
+	 	<li><i class=" hide fa fa-envelope"></i><a href="/contact_us">Contact Us</a></li>
 	 </ul>
 	<button>Rent Now</button>
 	</nav>
@@ -31,5 +32,12 @@
 		</ul>
 	</footer>
 	</div role="contentinfo">
+	<!-- <script>
+	$(document).ready(function(){
+		$('nav a').hover(function(){
+			$('.hide').show();
+		})
+	});
+	</script> -->
 </body>
 </html>
