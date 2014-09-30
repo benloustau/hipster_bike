@@ -57,6 +57,10 @@ post '/rent_form' do
 	 } 
 	 ], 
 	 :html=>"<html><body>Your bike is ready for pickup!</body</html>",
+	 :name=> params[:name], 
+	 } 
+	 ], 
+	 :html=>"<html><body></body</html>",
 	 :from_email=> "benloustau@gmail.com", 
 	} 
 	sending = m.messages.send message
