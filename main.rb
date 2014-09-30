@@ -21,26 +21,27 @@ get '/rent_now' do
 	erb :rent_now
 end
 
-# post '/send_email' do
-	
-# 	m = Mandrill::API.new
+post '/send_email' do
 
-# 	message = { 
-# 	 :subject=> "Customer request from mandrill", 
-# 	 :from_name=>,
-# 	 :text=>,
-# 	 :to=>[ "benloustau@gmail.com"
-# 	 { 
-# 	 :email=> "hipster_bike@gmail.com", 
-# 	 :name=> "hipster_bike" 
-# 	 } 
-# 	 ], 
-# 	 :html=>, 
-# 	 :from_email=>"benloustau@gmail.com" 
-# 	} 
-# 	sending = m.messages.send message
+	m = Mandrill::API.new
 
-# send_email("Customer Mail")
+	message = { 
+	 :subject=> "Customer request from mandrill", 
+	 :from_name=>"Customer",
+	 :text=> params[:comment],
+	 :to=>[ 
+	 { 
+	 :email=> "benloustau@gmail.com", 
+	 :name=> "hipster_bike" 
+	 } 
+	 ], 
+	 :html=>"<html><body></body</html>",
+	 :from_email=> params[:from], 
+	} 
+	sending = m.messages.send message
+	puts sending
+end
+
 
 
 
